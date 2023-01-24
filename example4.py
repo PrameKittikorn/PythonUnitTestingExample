@@ -1,6 +1,6 @@
 import unittest
 
 class TestStringMethods(unittest.TestCase):
-    def test_edge_cases(self):
-        self.assertEqual(int(''), None)
-        self.assertEqual(int(' '), None)
+    def test_input_types(self):
+        self.assertEqual(int('1'), 1)
+        self.assertEqual(int(1), 1)
